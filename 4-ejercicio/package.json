@@ -1,0 +1,27 @@
+{
+  "name": "4-ejercicio",
+  "version": "1.0.0",
+  "description": "Ejercio 4 de testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodgarda/curso_testing.git"
+  },
+  "keywords": [
+    "testing",
+    "javascript",
+    "curso"
+  ],
+  "author": "David Rodríguez García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodgarda/curso_testing/issues"
+  },
+  "homepage": "https://github.com/rodgarda/curso_testing#readme",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}

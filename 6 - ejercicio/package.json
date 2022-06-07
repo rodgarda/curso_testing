@@ -1,0 +1,41 @@
+{
+  "name": "ejercicio6",
+  "version": "1.0.0",
+  "description": "Ejercicio 6 de testing",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node mina.js",
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodgarda/curso_testing.git"
+  },
+  "keywords": [
+    "testing",
+    "diamantes",
+    "ejercicios"
+  ],
+  "author": "David Rodríguez García",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodgarda/curso_testing/issues"
+  },
+  "homepage": "https://github.com/rodgarda/curso_testing#readme",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.0",
+    "lint-staged": "^13.0.0",
+    "prettier": "^2.6.2"
+  },
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
